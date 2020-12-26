@@ -10,7 +10,7 @@ import Loader from './components/Loader'
 const App = () => {
   const [searchText, setSearchText] = useState("");
   const [pages, setPages] = useState('');
-  const [number, setNumber] = useState(10);
+  const number = 10;
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
